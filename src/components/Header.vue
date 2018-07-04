@@ -1,13 +1,13 @@
 <template>
-        <div class="parallax">
-            <div class="header-margin">  
-                <h1> {{ title }} </h1>
-            </div>  
-            
-            <div class="paragraph-margin">
-                <p> {{ description }} </p>
-            </div>
+    <div class="parallax">
+        <div class="header-margin">  
+            <h1> {{ title }} </h1>
+        </div>  
+        
+        <div class="paragraph-margin">
+            <p> {{ description }} </p>
         </div>
+    </div>
 </template>
 
 <script>
