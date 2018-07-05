@@ -67,11 +67,11 @@ export default {
   }
 
   .img-margin:hover img {
-      -webkit-transform:scale(1.35); /* Safari and Chrome */
-      -moz-transform:scale(1.35); /* Firefox */
-      -ms-transform:scale(1.35); /* IE 9 */
-      -o-transform:scale(1.35); /* Opera */
-      transform:scale(1.35);
+    -webkit-transform:scale(1.35); /* Safari and Chrome */
+    -moz-transform:scale(1.35); /* Firefox */
+    -ms-transform:scale(1.35); /* IE 9 */
+    -o-transform:scale(1.35); /* Opera */
+    transform:scale(1.35);
   }
   .header-margin {
     padding-top: 25px;
@@ -82,7 +82,6 @@ export default {
   }
   .paragraph-margin {
     margin: 0px 120px;
-    margin-top: 0px;
     padding-top: 70px;
     padding-bottom: 200px;
   } 
