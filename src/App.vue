@@ -3,18 +3,7 @@
     <Header></Header>
     <SocialMedia></SocialMedia>
     <TechList></TechList>
-    
-    <div>
-      <div class="title-margin">
-        <h2> {{ talksTitle }} </h2>
-      </div>
-      <div class="paragraph-margin">
-        <a href="https://docs.google.com/presentation/d/1eYRAMhEvu0902FoLEKZ8K6feOp2F7D6uw4O_EXGhayg/edit?usp=sharing" target="_blank">
-          <h5> My first step with node and elasticsearch</h5>
-        </a>
-      </div>
-    </div>
-
+    <Talks></Talks>
   </div>
 </template>
 
@@ -22,18 +11,15 @@
 import Header from './components/Header.vue'
 import SocialMedia from './components/SocialMedia.vue'
 import TechList from './components/TechList.vue'
+import Talks from './components/Talks.vue'
 
 export default {
   name: 'app',
   components: {
     Header,
     SocialMedia,
-    TechList
-  },
-  data () {
-    return {
-      talksTitle: 'Talks that I did'
-    }
+    TechList,
+    Talks
   }
 }
 </script>
