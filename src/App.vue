@@ -42,8 +42,9 @@ export default {
     font-family: 'Athiti', sans-serif;
   }
   p {
-    text-align: justify;
+    text-align: left;
     font-size: 25px;
+    margin-right: 45%;
   }
   .container {
     display: flex;
@@ -73,19 +74,22 @@ export default {
       transform:scale(1.35);
   }
   .header-margin {
-    padding-top: 80px;
+    padding-top: 25px;
     margin-left: 50px;
   }
   .title-margin {
     margin: 50px;
   }
   .paragraph-margin {
-    margin: 0px 100px;
-    padding: 170px 0px;
+    margin: 0px 120px;
+    margin-top: 0px;
+    padding-top: 70px;
+    padding-bottom: 200px;
   } 
   .parallax {
     /* The image used */
-    background-image: url("./assets/capa.jpg");
+    background-image: url("./assets/capa.png");
+    background-color: antiquewhite;
 
     /* Set a specific height */
     min-height: 350px; 
