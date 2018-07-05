@@ -27,6 +27,7 @@ export default {
 <style>
   h1 {
     margin-top: 0px;
+    margin-right: 30%;
     text-align: left;
     font-size: 80px;
     font-family: 'Athiti', sans-serif;
@@ -35,6 +36,7 @@ export default {
     text-align: left;
     font-size: 50px;
     font-family: 'Athiti', sans-serif;
+    margin-top: 0;
   }
   h5 {
     text-align: left;
@@ -78,7 +80,7 @@ export default {
     margin-left: 50px;
   }
   .title-margin {
-    margin: 50px;
+    margin: 0px 50px;
   }
   .paragraph-margin {
     margin: 0px 120px;
@@ -88,7 +90,6 @@ export default {
   .parallax {
     /* The image used */
     background-image: url("./assets/capa.png");
-    background-color: antiquewhite;
 
     /* Set a specific height */
     min-height: 350px; 
@@ -99,6 +100,5 @@ export default {
     background-repeat: no-repeat;
     background-size: cover;
 
-    filter: grayscale(1);
   }
 </style>
