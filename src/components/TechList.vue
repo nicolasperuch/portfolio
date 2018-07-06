@@ -5,7 +5,7 @@
         </div>
         <div class="container">
             <div class="img-margin" v-for="item in getTechList()">
-                <img v-bind:src=item.icon class="img-resize" alt=item.name>
+                <img v-b-tooltip.hover v-bind:title="item.name" v-bind:src=item.icon class="img-resize" alt=item.name>
             </div>
         </div>
     </div>  

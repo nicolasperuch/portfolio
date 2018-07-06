@@ -6,7 +6,7 @@
         <div class="container">
             <div id="social-media" class="img-margin" v-for="item in getSocialMediaList()">
                 <a :href="item.profile" target="_blank">
-                    <img v-bind:src=item.icon class="img-resize" alt=item.alt>
+                    <img v-b-tooltip.hover v-bind:title="item.name" v-bind:src=item.icon class="img-resize" alt=item.alt>
                 </a>
             </div>
         </div>

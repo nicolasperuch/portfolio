@@ -58,7 +58,7 @@ export default {
     transform:scale(1.35);
   }
   .title-margin {
-    margin: 0px 50px;
+    margin: 50px;
   }
   .paragraph-margin {
     margin: 0px 120px;
