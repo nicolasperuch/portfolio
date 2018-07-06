@@ -25,28 +25,11 @@ export default {
 </script>
 
 <style>
-  h1 {
-    margin-top: 0px;
-    margin-right: 30%;
-    text-align: left;
-    font-size: 80px;
-    font-family: 'Athiti', sans-serif;
-  }
   h2 {
     text-align: left;
     font-size: 50px;
     font-family: 'Athiti', sans-serif;
     margin-top: 0;
-  }
-  h5 {
-    text-align: left;
-    font-size: 35px;
-    font-family: 'Athiti', sans-serif;
-  }
-  p {
-    text-align: left;
-    font-size: 25px;
-    margin-right: 45%;
   }
   .container {
     display: flex;
@@ -67,17 +50,12 @@ export default {
     -o-transition: all 0.3s ease; /* Opera */
     transition: all 0.3s ease;
   }
-
   .img-margin:hover img {
     -webkit-transform:scale(1.35); /* Safari and Chrome */
     -moz-transform:scale(1.35); /* Firefox */
     -ms-transform:scale(1.35); /* IE 9 */
     -o-transform:scale(1.35); /* Opera */
     transform:scale(1.35);
-  }
-  .header-margin {
-    padding-top: 25px;
-    margin-left: 50px;
   }
   .title-margin {
     margin: 0px 50px;
@@ -87,18 +65,4 @@ export default {
     padding-top: 70px;
     padding-bottom: 200px;
   } 
-  .parallax {
-    /* The image used */
-    background-image: url("./assets/capa.png");
-
-    /* Set a specific height */
-    min-height: 350px; 
-
-    /* Create the parallax scrolling effect */
-    background-attachment: fixed;
-    background-position: center;
-    background-repeat: no-repeat;
-    background-size: cover;
-
-  }
 </style>

@@ -24,3 +24,11 @@
         }
     }
 </script>
+
+<style scoped>
+    h5 {
+        text-align: left;
+        font-size: 35px;
+        font-family: 'Athiti', sans-serif;
+    }
+</style>

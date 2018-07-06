@@ -23,3 +23,36 @@
         }
     }
 </script>
+
+<style scoped>
+    h1 {
+        margin-top: 0px;
+        margin-right: 30%;
+        text-align: left;
+        font-size: 80px;
+        font-family: 'Athiti', sans-serif;
+    }
+    p {
+        text-align: left;
+        font-size: 25px;
+        margin-right: 45%;
+    }
+    .header-margin {
+        padding-top: 25px;
+        margin-left: 50px;
+    }
+    .parallax {
+        /* The image used */
+        background-image: url("../assets/capa.png");
+
+        /* Set a specific height */
+        min-height: 350px; 
+
+        /* Create the parallax scrolling effect */
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+
+    }
+</style>
