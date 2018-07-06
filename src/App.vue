@@ -49,6 +49,8 @@ export default {
     -ms-transition: all 0.3s ease; /* IE 9 */
     -o-transition: all 0.3s ease; /* Opera */
     transition: all 0.3s ease;
+    
+    filter: grayscale(0.1);   
   }
   .img-margin:hover img {
     -webkit-transform:scale(1.35); /* Safari and Chrome */
@@ -56,6 +58,8 @@ export default {
     -ms-transform:scale(1.35); /* IE 9 */
     -o-transform:scale(1.35); /* Opera */
     transform:scale(1.35);
+    filter: grayscale(0);
+    filter: contrast(110%);
   }
   .title-margin {
     margin: 50px;
