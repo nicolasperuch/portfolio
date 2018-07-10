@@ -1,0 +1,25 @@
+<?xml version="1.0" ?><svg viewBox="2918 1403 120 120" xmlns="http://www.w3.org/2000/svg"><defs><style>
+      .cls-1 {
+        fill: #01ab6c;
+      }
+
+      .cls-2, .cls-3, .cls-4, .cls-5 {
+        fill: #fff;
+      }
+
+      .cls-2 {
+        opacity: 0.5;
+      }
+
+      .cls-3 {
+        opacity: 0.65;
+      }
+
+      .cls-4 {
+        opacity: 0.8;
+      }
+
+      .cls-5 {
+        opacity: 0.9;
+      }
+    </style></defs><g data-name="Group 100" id="Group_100" transform="translate(2804 1163)"><circle class="cls-1" cx="60" cy="60" data-name="Ellipse 74" id="Ellipse_74" r="60" transform="translate(114 240)"/><g data-name="Group 99" id="Group_99" transform="translate(-3.1 -4.4)"><path class="cls-2" d="M1.7.6,24.4,11.9c1.1.6,1.9.743,1.9,1.8V65.886A1.907,1.907,0,0,1,24.4,67.8L2,56.315C1,55.811.3,55.408.1,54.4V2.014C.1.957.4.3,1.7.6Z" data-name="Path 212" id="Path_212" transform="translate(138 270.5)"/><path class="cls-3" d="M2351.2,120.6l26.2,42.3-26.1-12.8Z" data-name="Path 213" id="Path_213" transform="translate(-2187 163)"/><path class="cls-4" d="M2360.2,135.2l17.4-27.8,25.8,13.1-26,42.5Z" data-name="Path 214" id="Path_214" transform="translate(-2187 163)"/><path class="cls-5" d="M2403.4,120.5v53.4s-.025.9-.4,1.2-1.1,0-1.1,0l-24.5-12.2Z" data-name="Path 215" id="Path_215" transform="translate(-2187 163)"/></g></g></svg>

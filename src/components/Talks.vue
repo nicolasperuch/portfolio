@@ -3,7 +3,7 @@
         <div class="title-margin">
             <h2> {{ getTalksTitle() }} </h2>
         </div>
-        <div class="paragraph-margin" v-for="item in getTalkList()">
+        <div class="paragraph-margin" v-for="item in getTalkList()" :key="item.title">
             <a :href=item.slides target="_blank">
                 <h5> {{ item.title }} </h5>
             </a>
