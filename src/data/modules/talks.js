@@ -5,7 +5,7 @@ const data = {
           {
               title: 'My first step with node and elasticsearch',
               slides: 'https://docs.google.com/presentation/d/1eYRAMhEvu0902FoLEKZ8K6feOp2F7D6uw4O_EXGhayg/edit?usp=sharing',
-              icon: 'https://3.bp.blogspot.com/-Xgy8k-BxOfg/WgW4jipZLsI/AAAAAAAAulA/kRs0H-cGFXkIsdql6TMunGY5fzY4ZP4NgCK4BGAYYCw/s1600/google_slides1600.png'
+              icon: './src/assets/google-presentation-logo.png'
           }
         ]
     },
