@@ -4,6 +4,7 @@
     <SocialMedia></SocialMedia>
     <TechList></TechList>
     <Talks></Talks>
+    <div>Background Image by Jessica Lewis from Pexels</div>
   </div>
 </template>
 
@@ -62,11 +63,14 @@ export default {
     filter: contrast(110%);
   }
   .title-margin {
-    margin: 50px;
+    margin: 0px 50px 50px 50px;
   }
   .paragraph-margin {
     margin: 0px 120px;
     padding-top: 70px;
     padding-bottom: 200px;
   } 
+  .padding-bottom-100 {
+    padding-bottom: 100px;
+  }
 </style>

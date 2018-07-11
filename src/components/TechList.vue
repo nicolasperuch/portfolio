@@ -1,5 +1,5 @@
 <template>
-    <div>
+    <div class="tech">
         <div class="title-margin">
             <h2> {{ getTechnologyTitle() }} </h2>
         </div>
@@ -24,3 +24,15 @@
         }
     }
 </script>
+
+<style scoped>
+    .tech {
+        background-image: url("../assets/tech-social-bg.jpg");
+        background-repeat: no-repeat;
+        background-position: center;
+        background-size: cover;
+        background-attachment: fixed;
+
+        filter: sepia(0.22)
+    }
+</style>
