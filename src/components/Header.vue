@@ -27,7 +27,7 @@
 <style scoped>
     h1 {
         margin-top: 0px;
-        margin-right: 30%;
+        margin-right: 30vw;
         text-align: left;
         font-size: 80px;
         font-family: 'Athiti', sans-serif;
@@ -35,7 +35,7 @@
     p {
         text-align: left;
         font-size: 25px;
-        margin-right: 45%;
+        margin-right: 34vw;
     }
     .header-margin {
         padding-top: 25px;

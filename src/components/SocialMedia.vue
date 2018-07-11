@@ -4,7 +4,7 @@
             <h2> {{ socialMediaTitle() }} </h2>
         </div>  
         <div class="container">
-            <div class="img-margin  padding-bottom-100" v-for="item in getSocialMediaList()" :key="item.name">
+            <div class="img-margin padding-bottom-100" v-for="item in getSocialMediaList()" :key="item.name">
                 <a :href="item.profile" target="_blank">
                     <img v-b-tooltip.hover v-bind:title="item.name" v-bind:src=item.icon class="img-resize" alt=item.alt>
                 </a>
