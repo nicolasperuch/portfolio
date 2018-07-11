@@ -3,10 +3,20 @@
         <div class="title-margin">
             <h2> {{ getTalksTitle() }} </h2>
         </div>
-        <div class="container img-margin padding-bottom-100" v-for="item in getTalkList()" :key="item.title">
-            <a :href=item.slides target="_blank">
-                <img v-b-tooltip.hover v-bind:title="item.title" v-bind:src=item.icon class="img-resize" alt=item.name>
-            </a>
+        <div class="container padding-bottom-100" v-for="item in getTalkList()" :key="item.title">
+            <div class="container">
+                <div class="img-margin">
+                    <a :href=item.slides target="_blank">
+                        <img v-b-tooltip.hover v-bind:title="item.tooltip" v-bind:src=item.icon class="img-resize" alt=item.name>
+                    </a>
+                </div>
+                <div id="talks-box">
+                    <div>
+                        <h5> {{ item.title }} </h5>
+                        <p> description here </p>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 </template>
@@ -30,6 +40,15 @@
         text-align: left;
         font-size: 35px;
         font-family: 'Athiti', sans-serif;
+        color: aliceblue;
+        text-shadow: 2px 2px 5px black;
+    }
+    p {
+        text-align: left;
+        font-size: 20px;
+        font-family: 'Athiti', sans-serif;
+        color: aliceblue;
+        text-shadow: 2px 2px 5px black;
     }
 
     .talks {
@@ -43,6 +62,10 @@
     }
 
     .img-margin {
-        margin-bottom: 0;
+        margin: 0px;
+    }
+
+    .container {
+        margin-left: 0px;
     }
 </style>
