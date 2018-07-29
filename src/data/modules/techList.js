@@ -15,6 +15,14 @@ const data = {
                 icon: './src/assets/kafka-logo.png'
             },
             {
+                name: 'Ansible',
+                icon: './src/assets/ansible-logo.png'
+            },
+            {
+                name: 'Kubernetes',
+                icon: './src/assets/kubernetes-logo.png'
+            },
+            {
                 name: 'Spring boot',
                 icon: './src/assets/spring-boot-logo.png'
             },
@@ -27,6 +35,10 @@ const data = {
                 icon: './src/assets/fluentd-logo.png'
             },
             {
+                name: 'Mongo DB',
+                icon: './src/assets/mongo-logo.png'
+            },
+            {
                 name: 'MySql',
                 icon: './src/assets/mysql-logo.png'
             },
@@ -37,6 +49,14 @@ const data = {
             {
                 name: 'Node',
                 icon: './src/assets/node-logo.png'
+            },
+            {
+                name: 'Vue',
+                icon: './src/assets/vue-logo.png'
+            },
+            {
+                name: 'Angular',
+                icon: './src/assets/angular-logo.png'
             }    
         ]
     },
