@@ -4,13 +4,13 @@
             <h2> {{ getTalksTitle() }} </h2>
         </div>
         <div class="container padding-bottom-100" v-for="item in getTalkList()" :key="item.title">
-            <div class="container">
-                <div class="img-margin">
-                    <a :href=item.slides target="_blank">
-                        <img v-b-tooltip.hover v-bind:title="item.tooltip" v-bind:src=item.icon class="img-resize" alt=item.name>
-                    </a>
-                </div>
-                <div id="talks-box">
+            <div id="black-box">
+                <div class="container">
+                    <div class="img-margin">
+                        <a :href=item.slides target="_blank">
+                            <img v-b-tooltip.hover v-bind:title="item.tooltip" v-bind:src=item.icon class="img-resize" alt=item.name>
+                        </a>
+                    </div>
                     <div>
                         <h5> {{ item.title }} </h5>
                         <p> description here </p>
@@ -67,5 +67,10 @@
 
     .container {
         margin-left: 0px;
+    }
+    #black-box {
+        padding: 20px;
+        background: rgb(34,34,34); /* for IE */
+        background: rgba(34,34,34,0.75);
     }
 </style>
