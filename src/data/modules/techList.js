@@ -43,6 +43,10 @@ const data = {
                 icon: './src/assets/mysql-logo.png'
             },
             {
+                name: 'Oracle Database',
+                icon: './src/assets/oracle-database-logo.png'
+            },
+            {
                 name: 'Java',
                 icon: './src/assets/java-logo.png'
             },
@@ -57,6 +61,30 @@ const data = {
             {
                 name: 'Angular',
                 icon: './src/assets/angular-logo.png'
+            },
+            {
+                name: 'ReactiveX',
+                icon: './src/assets/rx.png'
+            },
+            {
+                name: 'RabbitMQ',
+                icon: './src/assets/rabbit-logo.png'
+            },
+            {
+                name: 'Gradle',
+                icon: './src/assets/gradle-logo.png'
+            },
+            {
+                name: 'Maven',
+                icon: './src/assets/maven-logo.png'
+            },
+            {
+                name: 'GoLang',
+                icon: './src/assets/go-lang-logo.png'
+            },
+            {
+                name: 'Netflix OSS',
+                icon: './src/assets/netflix.png'
             }    
         ]
     },
